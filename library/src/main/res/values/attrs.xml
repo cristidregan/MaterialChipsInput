@@ -29,6 +29,8 @@
         <attr name="chip_detailed_deleteIconColor" format="color" />
         <attr name="filterable_list_backgroundColor" format="color" />
         <attr name="filterable_list_textColor" format="color" />
+        <attr name="show_edit_text" format="boolean" />
+        <attr name="block_scroll" format="boolean" />
     </declare-styleable>
 
     <declare-styleable name="ScrollViewMaxHeight">

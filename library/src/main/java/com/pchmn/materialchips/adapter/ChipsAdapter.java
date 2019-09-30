@@ -292,6 +292,13 @@ public class ChipsAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> 
         }
     }
 
+    public void removeAllChips() {
+        mChipList.clear();
+        mEditText.setHint(mHintLabel);
+        // refresh data
+        notifyDataSetChanged();
+    }
+
     public void removeChip(ChipInterface chip) {
         int position = mChipList.indexOf(chip);
         mChipList.remove(position);
